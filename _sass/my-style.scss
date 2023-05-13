@@ -1,0 +1,102 @@
+.dl-table {
+  a {
+    @supports ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+      text-underline-offset: .8rem;
+    }
+    @supports not ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+      padding-bottom: .45rem;
+    }
+  }
+
+  .btn, .gumroad-button  {
+    margin: 1rem 0;
+  }
+}
+
+.center {
+  display: block;
+  margin: auto;
+}
+
+figcaption {
+  color: #808080;
+  font-size: 80%;
+  text-align: center;
+  margin-top: 0;
+  padding: -10px 2px 2px 2px;
+}
+
+code {
+  /*mono-line code*/
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 3px;
+  margin: 1px;
+  border-radius: 4px;
+  font-size: 95%;
+  font-weight: bold;
+}
+
+.simple-table {
+  margin-top: 1em;
+  font-size: 0.875rem;
+  empty-cells: show;
+}
+
+table {
+  border-left: none;
+  border-right: none;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  white-space: normal;
+  line-height: normal;
+  font-weight: normal;
+  font-size: medium;
+  font-style: normal;
+  color: -internal-quirk-inherit;
+  text-align: start;
+  border-spacing: 2px;
+  border-color: gray;
+  font-variant: normal;
+}
+
+mark{
+  background-color: #fff5b1;
+}
+
+.callout {
+  font-family: Hack, D2Coding, 'D2 coding', monospace;
+  background-color: #f4f4f4;
+  border: 1px solid #d8d8d8;
+  padding: 20px;
+  // padding-bottom: 20px;
+  margin: 0;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-size: 95%;
+  line-height: 1.5;
+  color: #2d3139;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.line-mark-pink{
+  padding: 4px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-left: 10px;
+  background-color: #FDEBEB;
+  // #FDD9D9, #ffdce0
+}
+
+.line-mark-gray {
+  padding: 4px;
+  padding-left: 10px;
+  background-color: #f0f0f0;
+  // #FDD9D9, #ffdce0
+}
